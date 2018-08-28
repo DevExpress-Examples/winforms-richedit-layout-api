@@ -168,14 +168,6 @@ namespace LayoutApiSimpleExample
             customDrawSeparator = checkEdit7.Checked ? true : false;
             richEditControl1.Refresh();
         }
-
-        private void checkEdit8_CheckedChanged(object sender, EventArgs e)
-        {
-            customDrawHeader = checkEdit8.Checked ? true : false;
-            richEditControl1.Refresh();
-        }
-
-
         private void checkEdit9_CheckedChanged(object sender, EventArgs e)
         {
             customDrawPage = checkEdit9.Checked ? true : false;

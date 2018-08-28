@@ -9,7 +9,7 @@ namespace LayoutApiSimpleExample
     #region #MyLayoutPainter
     public class MyLayoutPainter : PagePainter
     {
-        #endregion #MyLayoutPainter
+
         #region #PlainTextBoxPainter
         public override void DrawPlainTextBox(PlainTextBox plainTextBox)
         {
@@ -27,9 +27,9 @@ namespace LayoutApiSimpleExample
             if (Form1.customDrawImage == true)
             {
                 Rectangle bounds = floatingPicture.Bounds;
-                Point startPoint = new Point(bounds.X + 10, bounds.Y + bounds.Height - 40);
+                Point startPoint = new Point(bounds.X + Canvas.ConvertToDrawingLayoutUnits(10, DocumentLayoutUnit.Pixel), bounds.Y + bounds.Height - Canvas.ConvertToDrawingLayoutUnits(40, DocumentLayoutUnit.Pixel));
                 RichEditPen pEn = new RichEditPen(Color.Coral);
-                pEn.Thickness = 3;
+                pEn.Thickness = 30;
                 pEn.DashStyle = RichEditDashStyle.Dash;
                 Canvas.DrawEllipse(pEn, bounds);
                 Canvas.DrawString("Approved", new Font("Courier New", 26), new RichEditBrush(Color.DarkMagenta), startPoint);
@@ -45,9 +45,13 @@ namespace LayoutApiSimpleExample
             if (Form1.customDrawTable == true)
             {
                 Rectangle Tbounds = tableCell.Bounds;
-                Rectangle tableRectangle = new Rectangle(new Point(Tbounds.X + Tbounds.Width / 2 - 10, Tbounds.Y + Tbounds.Height / 2 - 10), new Size(20, 20));
-                Canvas.FillEllipse(new RichEditBrush(Color.MediumAquamarine), Canvas.ConvertToDrawingLayoutUnits(tableRectangle, DocumentLayoutUnit.Pixel));
-                Canvas.DrawImage(OfficeImage.CreateImage(DevExpress.Images.ImageResourceCache.Default.GetImage("devav/people/employeeaward_16x16.png")), tableCell.Bounds, ImageSizeMode.Squeeze);
+
+                int x = Tbounds.X + Tbounds.Width/2 - Canvas.ConvertToDrawingLayoutUnits(20, DocumentLayoutUnit.Pixel);
+                int y = Tbounds.Y + Tbounds.Height/2 - Canvas.ConvertToDrawingLayoutUnits(20, DocumentLayoutUnit.Pixel);
+                Rectangle tableRectangle = new Rectangle(x,y, Canvas.ConvertToDrawingLayoutUnits(20, DocumentLayoutUnit.Pixel), 
+                    Canvas.ConvertToDrawingLayoutUnits(20, DocumentLayoutUnit.Pixel));
+
+                Canvas.FillEllipse(new RichEditBrush(Color.MediumAquamarine), tableRectangle);
                 base.DrawTableCell(tableCell);
             }
             else
@@ -61,12 +65,12 @@ namespace LayoutApiSimpleExample
             if (Form1.customDrawPicture == true)
             {
                 Rectangle Ebounds = inlinePictureBox.Bounds;
-                RichEditPen pen = new RichEditPen(Color.Maroon, 2);
+                RichEditPen pen = new RichEditPen(Color.Maroon, 50);
                 pen.DashStyle = RichEditDashStyle.Dot;
                 Canvas.DrawLine(pen, new Point(Ebounds.X, Ebounds.Y + Ebounds.Height), new Point(Ebounds.X + Ebounds.Width, Ebounds.Y));
                 Canvas.DrawLine(pen, new Point(Ebounds.X, Ebounds.Y), new Point(Ebounds.X + Ebounds.Width, Ebounds.Y + Ebounds.Height));
                 Rectangle inlineRect = new Rectangle(Ebounds.X, Ebounds.Y, Ebounds.Width, Ebounds.Height);
-                Canvas.DrawRectangle(new RichEditPen(Color.Aquamarine, 4), inlineRect);
+                Canvas.DrawRectangle(new RichEditPen(Color.Aquamarine, 40), inlineRect);
             }
             else
                 base.DrawInlinePictureBox(inlinePictureBox);
@@ -87,7 +91,7 @@ namespace LayoutApiSimpleExample
                 new Point(textBox.Bounds.X,textBox.Bounds.Y+textBox.Bounds.Height),
                 new Point(textBox.Bounds.X+textBox.Bounds.Width/2,textBox.Bounds.Y)
                     };
-                Canvas.DrawLines(new RichEditPen(Color.HotPink, 3), StarPoints);
+                Canvas.DrawLines(new RichEditPen(Color.HotPink, 30), StarPoints);
             }
             else
                 base.DrawTextBox(textBox);
@@ -102,26 +106,6 @@ namespace LayoutApiSimpleExample
         }
         #endregion #NumberingListWithSeparatorPainter
 
-        #region #HeaderPainter
-        public override void DrawHeader(LayoutHeader header)
-        {
-            if (Form1.customDrawHeader == true)
-            {
-
-                Point p1 = new Point(0, 0);
-                Point p2 = new Point(100, 100);
-                Canvas.DrawLine(new RichEditPen(Color.Red, 5), p1, p2);
-                Canvas.DrawString("Default Layout Unit", new Font("Comic Sans", 12), new RichEditBrush(Color.Red), new Point(0, 0));
-                Point p3 = new Point(0, 100);
-                Point p4 = new Point(100, 200);
-                Canvas.DrawLine(new RichEditPen(Color.Blue, 5), p3, p4, DocumentLayoutUnit.Pixel);
-                Canvas.DrawString("Layout Unit Specified", new Font("Comic Sans", 12), new RichEditBrush(Color.Blue), new Point(0, 100), DocumentLayoutUnit.Pixel);
-            }
-            else
-                base.DrawHeader(header);
-        }
-        #endregion #HeaderPainter 
-
         #region #PagePainter
         public override void DrawPage(LayoutPage page)
         {
@@ -134,7 +118,6 @@ namespace LayoutApiSimpleExample
             base.DrawPage(page);
         }
         #endregion #PagePainter
-        #region #_MyLayoutPainter
     }
-    #endregion #_MyLayoutPainter
+    #endregion #MyLayoutPainter    
 }

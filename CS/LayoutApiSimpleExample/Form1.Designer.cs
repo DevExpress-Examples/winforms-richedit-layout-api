@@ -47,7 +47,6 @@
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.checkEdit9 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit8 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit7 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
@@ -67,7 +66,6 @@
             this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit9.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit8.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
@@ -81,11 +79,8 @@
             // richEditControl1
             // 
             this.richEditControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richEditControl1.EnableToolTips = true;
             this.richEditControl1.Location = new System.Drawing.Point(0, 0);
             this.richEditControl1.Name = "richEditControl1";
-            this.richEditControl1.Options.Export.PlainText.ExportFinalParagraphMark = DevExpress.XtraRichEdit.Export.PlainText.ExportFinalParagraphMark.Never;
-            this.richEditControl1.Options.Fields.UpdateFieldsInTextBoxes = false;
             this.richEditControl1.Options.Printing.EnableCommentBackgroundOnPrint = false;
             this.richEditControl1.Options.Printing.EnableCommentFillOnPrint = false;
             this.richEditControl1.Size = new System.Drawing.Size(876, 526);
@@ -122,7 +117,6 @@
             // 
             this.panelControl2.Controls.Add(this.checkEdit9);
             this.panelControl2.Controls.Add(this.checkEdit4);
-            this.panelControl2.Controls.Add(this.checkEdit8);
             this.panelControl2.Controls.Add(this.checkEdit1);
             this.panelControl2.Controls.Add(this.checkEdit7);
             this.panelControl2.Controls.Add(this.checkEdit2);
@@ -152,15 +146,6 @@
             this.checkEdit4.TabIndex = 10;
             this.checkEdit4.CheckedChanged += new System.EventHandler(this.checkEdit4_CheckedChanged);
             // 
-            // checkEdit8
-            // 
-            this.checkEdit8.Location = new System.Drawing.Point(14, 53);
-            this.checkEdit8.Name = "checkEdit8";
-            this.checkEdit8.Properties.Caption = "Header";
-            this.checkEdit8.Size = new System.Drawing.Size(77, 19);
-            this.checkEdit8.TabIndex = 14;
-            this.checkEdit8.CheckedChanged += new System.EventHandler(this.checkEdit8_CheckedChanged);
-            // 
             // checkEdit1
             // 
             this.checkEdit1.Location = new System.Drawing.Point(14, 5);
@@ -172,7 +157,7 @@
             // 
             // checkEdit7
             // 
-            this.checkEdit7.Location = new System.Drawing.Point(97, 75);
+            this.checkEdit7.Location = new System.Drawing.Point(14, 76);
             this.checkEdit7.Name = "checkEdit7";
             this.checkEdit7.Properties.Caption = "Numbering List";
             this.checkEdit7.Size = new System.Drawing.Size(96, 19);
@@ -199,7 +184,7 @@
             // 
             // checkEdit5
             // 
-            this.checkEdit5.Location = new System.Drawing.Point(14, 78);
+            this.checkEdit5.Location = new System.Drawing.Point(14, 53);
             this.checkEdit5.Name = "checkEdit5";
             this.checkEdit5.Properties.Caption = "Text Box";
             this.checkEdit5.Size = new System.Drawing.Size(77, 19);
@@ -333,7 +318,6 @@
             this.panelControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit9.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit8.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
@@ -365,7 +349,6 @@
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
         private DevExpress.XtraEditors.CheckEdit checkEdit7;
         private DevExpress.XtraEditors.PanelControl panelControl2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit8;
         private DevExpress.XtraEditors.CheckEdit checkEdit9;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;        
     }
