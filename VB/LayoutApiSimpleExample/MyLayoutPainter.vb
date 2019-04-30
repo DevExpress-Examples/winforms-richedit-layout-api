@@ -50,10 +50,10 @@ Namespace LayoutApiSimpleExample
                 MyBase.DrawTableCell(tableCell)
             End If
         End Sub
-        #End Region ' #TableCellPainter
+#End Region ' #TableCellPainter
 
-        #Region "#InlinePainter"
-        Public Overrides Sub DrawInlinePictureBox(ByVal inlinePictureBox As InlinePictureBox)
+#Region "#InlinePicturePainter"
+        Public Overrides Sub DrawInlineDrawingObject(ByVal inlinePictureBox As InlineDrawingObjectBox)
             If Form1.customDrawPicture = True Then
                 Dim Ebounds As Rectangle = inlinePictureBox.Bounds
                 Dim pen As New RichEditPen(Color.Maroon, 50)
@@ -63,12 +63,12 @@ Namespace LayoutApiSimpleExample
                 Dim inlineRect As New Rectangle(Ebounds.X, Ebounds.Y, Ebounds.Width, Ebounds.Height)
                 Canvas.DrawRectangle(New RichEditPen(Color.Aquamarine, 40), inlineRect)
             Else
-                MyBase.DrawInlinePictureBox(inlinePictureBox)
+                MyBase.DrawInlineDrawingObject(inlinePictureBox)
             End If
         End Sub
-        #End Region ' #InlinePainter
+#End Region ' #InlinePicturePainter
 
-        #Region "#TextBoxPainter"
+#Region "#TextBoxPainter"
         Public Overrides Sub DrawTextBox(ByVal textBox As LayoutTextBox)
             If Form1.customDrawTextBox = True Then
                 Dim StarPoints() As Point = { _

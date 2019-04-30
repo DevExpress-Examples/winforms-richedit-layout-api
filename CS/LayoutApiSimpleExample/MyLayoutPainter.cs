@@ -59,8 +59,8 @@ namespace LayoutApiSimpleExample
         }
         #endregion #TableCellPainter
 
-        #region #InlinePainter
-        public override void DrawInlinePictureBox(InlinePictureBox inlinePictureBox)
+        #region #InlinePicturesPainter
+        public override void DrawInlineDrawingObject(InlineDrawingObjectBox inlinePictureBox)
         {
             if (Form1.customDrawPicture == true)
             {
@@ -73,9 +73,9 @@ namespace LayoutApiSimpleExample
                 Canvas.DrawRectangle(new RichEditPen(Color.Aquamarine, 40), inlineRect);
             }
             else
-                base.DrawInlinePictureBox(inlinePictureBox);
+                base.DrawInlineDrawingObject(inlinePictureBox);
         }
-        #endregion #InlinePainter
+        #endregion #InlinePicturesPainter
 
         #region #TextBoxPainter
         public override void DrawTextBox(LayoutTextBox textBox)
