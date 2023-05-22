@@ -7,15 +7,14 @@ Imports System.Drawing
 Imports System.Windows.Forms
 
 Namespace LayoutApiSimpleExample
-	Partial Public Class Form1
-		Inherits Form
+    Partial Public Class Form1
+        Inherits DevExpress.XtraEditors.XtraForm
 
 		Public Sub New()
 			InitializeComponent()
 			richEditControl1.LoadDocument("Grimm.docx")
-			AddHandler richEditControl1.DocumentLayout.DocumentFormatted, AddressOf DocumentLayout_DocumentFormatted
 		End Sub
-		#Region "#DocumentFormatted"
+#Region "#DocumentFormatted"
 		Private Sub DocumentLayout_DocumentFormatted(ByVal sender As Object, ByVal e As EventArgs)
 
 			richEditControl1.BeginInvoke(New Action(Sub()
@@ -92,10 +91,10 @@ Namespace LayoutApiSimpleExample
 		Private Sub checkbtnCustomDraw_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs) Handles checkbtnCustomDraw.CheckedChanged
 			If checkbtnCustomDraw.Checked Then
 				AddHandler richEditControl1.BeforePagePaint, AddressOf richEditControl1_BeforePagePaint
-				panelControl2.Enabled = True
+				LayoutControlGroup2.Enabled = True
 			Else
 				RemoveHandler richEditControl1.BeforePagePaint, AddressOf richEditControl1_BeforePagePaint
-				panelControl2.Enabled = False
+				LayoutControlGroup2.Enabled = False
 			End If
 			richEditControl1.Refresh()
 
@@ -147,6 +146,10 @@ Namespace LayoutApiSimpleExample
 
 		Private Sub simpleButton2_Click(ByVal sender As Object, ByVal e As EventArgs) Handles simpleButton2.Click
 			richEditControl1.ShowPrintPreview()
+		End Sub
+
+		Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+			AddHandler richEditControl1.DocumentLayout.DocumentFormatted, AddressOf DocumentLayout_DocumentFormatted
 		End Sub
 	End Class
 End Namespace

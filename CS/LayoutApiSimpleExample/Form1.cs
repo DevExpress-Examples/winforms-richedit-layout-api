@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace LayoutApiSimpleExample
 {
-    public partial class Form1 : Form
+    public partial class Form1 : DevExpress.XtraEditors.XtraForm
     {
         public Form1()
         {
@@ -111,12 +111,12 @@ namespace LayoutApiSimpleExample
             if (checkbtnCustomDraw.Checked)
             {
                 richEditControl1.BeforePagePaint += richEditControl1_BeforePagePaint;
-                panelControl2.Enabled = true;
+                layoutControlGroup2.Enabled = true;
             }
             else
             {
                 richEditControl1.BeforePagePaint -= richEditControl1_BeforePagePaint;
-                panelControl2.Enabled = false;
+                layoutControlGroup2.Enabled = false;
             }
             richEditControl1.Refresh();
 
