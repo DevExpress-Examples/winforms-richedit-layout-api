@@ -24,17 +24,17 @@
 		''' </summary>
 		Private Sub InitializeComponent()
             Me.components = New System.ComponentModel.Container()
-            Dim TrackBarLabel12 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim TrackBarLabel13 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim TrackBarLabel14 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim TrackBarLabel15 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim TrackBarLabel16 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim TrackBarLabel17 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim TrackBarLabel18 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim TrackBarLabel19 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim TrackBarLabel20 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim TrackBarLabel21 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim TrackBarLabel22 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel1 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel2 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel3 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel4 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel5 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel6 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel7 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel8 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel9 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel10 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim TrackBarLabel11 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
             Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
             Me.richEditControl1 = New DevExpress.XtraRichEdit.RichEditControl()
             Me.simpleButton2 = New DevExpress.XtraEditors.SimpleButton()
@@ -116,12 +116,12 @@
             Me.richEditControl1.Options.DocumentSaveOptions.CurrentFormat = DevExpress.XtraRichEdit.DocumentFormat.PlainText
             Me.richEditControl1.Options.Printing.EnableCommentBackgroundOnPrint = False
             Me.richEditControl1.Options.Printing.EnableCommentFillOnPrint = False
-            Me.richEditControl1.Size = New System.Drawing.Size(852, 492)
+            Me.richEditControl1.Size = New System.Drawing.Size(875, 491)
             Me.richEditControl1.TabIndex = 0
             '
             'simpleButton2
             '
-            Me.simpleButton2.Location = New System.Drawing.Point(529, 554)
+            Me.simpleButton2.Location = New System.Drawing.Point(552, 553)
             Me.simpleButton2.Name = "simpleButton2"
             Me.simpleButton2.Size = New System.Drawing.Size(109, 22)
             Me.simpleButton2.StyleController = Me.LayoutControl1
@@ -150,13 +150,13 @@
             Me.LayoutControl1.Name = "LayoutControl1"
             Me.LayoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(677, 516, 650, 400)
             Me.LayoutControl1.Root = Me.Root
-            Me.LayoutControl1.Size = New System.Drawing.Size(876, 675)
+            Me.LayoutControl1.Size = New System.Drawing.Size(899, 675)
             Me.LayoutControl1.TabIndex = 2
             Me.LayoutControl1.Text = "LayoutControl1"
             '
             'checkEdit9
             '
-            Me.checkEdit9.Location = New System.Drawing.Point(767, 544)
+            Me.checkEdit9.Location = New System.Drawing.Point(790, 543)
             Me.checkEdit9.Name = "checkEdit9"
             Me.checkEdit9.Properties.Caption = "Page"
             Me.checkEdit9.Size = New System.Drawing.Size(85, 20)
@@ -165,7 +165,7 @@
             '
             'checkEdit4
             '
-            Me.checkEdit4.Location = New System.Drawing.Point(767, 520)
+            Me.checkEdit4.Location = New System.Drawing.Point(790, 519)
             Me.checkEdit4.Name = "checkEdit4"
             Me.checkEdit4.Properties.Caption = "Inline Picture"
             Me.checkEdit4.Size = New System.Drawing.Size(85, 20)
@@ -174,7 +174,7 @@
             '
             'checkEdit2
             '
-            Me.checkEdit2.Location = New System.Drawing.Point(666, 616)
+            Me.checkEdit2.Location = New System.Drawing.Point(689, 615)
             Me.checkEdit2.Name = "checkEdit2"
             Me.checkEdit2.Properties.Caption = "Floating Picture"
             Me.checkEdit2.Size = New System.Drawing.Size(97, 20)
@@ -183,7 +183,7 @@
             '
             'checkEdit7
             '
-            Me.checkEdit7.Location = New System.Drawing.Point(666, 592)
+            Me.checkEdit7.Location = New System.Drawing.Point(689, 591)
             Me.checkEdit7.Name = "checkEdit7"
             Me.checkEdit7.Properties.Caption = "Numbering List"
             Me.checkEdit7.Size = New System.Drawing.Size(97, 20)
@@ -192,7 +192,7 @@
             '
             'checkEdit1
             '
-            Me.checkEdit1.Location = New System.Drawing.Point(666, 520)
+            Me.checkEdit1.Location = New System.Drawing.Point(689, 519)
             Me.checkEdit1.Name = "checkEdit1"
             Me.checkEdit1.Properties.Caption = "Text"
             Me.checkEdit1.Size = New System.Drawing.Size(97, 20)
@@ -201,7 +201,7 @@
             '
             'checkEdit5
             '
-            Me.checkEdit5.Location = New System.Drawing.Point(666, 568)
+            Me.checkEdit5.Location = New System.Drawing.Point(689, 567)
             Me.checkEdit5.Name = "checkEdit5"
             Me.checkEdit5.Properties.Caption = "Text Box"
             Me.checkEdit5.Size = New System.Drawing.Size(97, 20)
@@ -210,7 +210,7 @@
             '
             'checkEdit3
             '
-            Me.checkEdit3.Location = New System.Drawing.Point(666, 544)
+            Me.checkEdit3.Location = New System.Drawing.Point(689, 543)
             Me.checkEdit3.Name = "checkEdit3"
             Me.checkEdit3.Properties.Caption = "Table"
             Me.checkEdit3.Size = New System.Drawing.Size(97, 20)
@@ -220,7 +220,7 @@
             'checkbtnCustomDraw
             '
             Me.checkbtnCustomDraw.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D
-            Me.checkbtnCustomDraw.Location = New System.Drawing.Point(529, 530)
+            Me.checkbtnCustomDraw.Location = New System.Drawing.Point(552, 529)
             Me.checkbtnCustomDraw.Name = "checkbtnCustomDraw"
             Me.checkbtnCustomDraw.Size = New System.Drawing.Size(109, 20)
             Me.checkbtnCustomDraw.StyleController = Me.LayoutControl1
@@ -230,44 +230,44 @@
             'trackBarControl1
             '
             Me.trackBarControl1.EditValue = 100
-            Me.trackBarControl1.Location = New System.Drawing.Point(198, 593)
+            Me.trackBarControl1.Location = New System.Drawing.Point(198, 592)
             Me.trackBarControl1.Name = "trackBarControl1"
             Me.trackBarControl1.Properties.LabelAppearance.Options.UseTextOptions = True
             Me.trackBarControl1.Properties.LabelAppearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-            TrackBarLabel12.Label = "0"
-            TrackBarLabel13.Label = "100"
-            TrackBarLabel13.Value = 100
-            TrackBarLabel14.Label = "200"
-            TrackBarLabel14.Value = 200
-            TrackBarLabel15.Label = "300"
-            TrackBarLabel15.Value = 300
-            TrackBarLabel16.Label = "400"
-            TrackBarLabel16.Value = 400
-            TrackBarLabel17.Label = "500"
-            TrackBarLabel17.Value = 500
-            TrackBarLabel18.Label = "600"
-            TrackBarLabel18.Value = 600
-            TrackBarLabel19.Label = "700"
-            TrackBarLabel19.Value = 700
-            TrackBarLabel20.Label = "800"
-            TrackBarLabel20.Value = 800
-            TrackBarLabel21.Label = "900"
-            TrackBarLabel21.Value = 900
-            TrackBarLabel22.Label = "1000"
-            TrackBarLabel22.Value = 1000
-            Me.trackBarControl1.Properties.Labels.AddRange(New DevExpress.XtraEditors.Repository.TrackBarLabel() {TrackBarLabel12, TrackBarLabel13, TrackBarLabel14, TrackBarLabel15, TrackBarLabel16, TrackBarLabel17, TrackBarLabel18, TrackBarLabel19, TrackBarLabel20, TrackBarLabel21, TrackBarLabel22})
+            TrackBarLabel1.Label = "0"
+            TrackBarLabel2.Label = "100"
+            TrackBarLabel2.Value = 100
+            TrackBarLabel3.Label = "200"
+            TrackBarLabel3.Value = 200
+            TrackBarLabel4.Label = "300"
+            TrackBarLabel4.Value = 300
+            TrackBarLabel5.Label = "400"
+            TrackBarLabel5.Value = 400
+            TrackBarLabel6.Label = "500"
+            TrackBarLabel6.Value = 500
+            TrackBarLabel7.Label = "600"
+            TrackBarLabel7.Value = 600
+            TrackBarLabel8.Label = "700"
+            TrackBarLabel8.Value = 700
+            TrackBarLabel9.Label = "800"
+            TrackBarLabel9.Value = 800
+            TrackBarLabel10.Label = "900"
+            TrackBarLabel10.Value = 900
+            TrackBarLabel11.Label = "1000"
+            TrackBarLabel11.Value = 1000
+            Me.trackBarControl1.Properties.Labels.AddRange(New DevExpress.XtraEditors.Repository.TrackBarLabel() {TrackBarLabel1, TrackBarLabel2, TrackBarLabel3, TrackBarLabel4, TrackBarLabel5, TrackBarLabel6, TrackBarLabel7, TrackBarLabel8, TrackBarLabel9, TrackBarLabel10, TrackBarLabel11})
             Me.trackBarControl1.Properties.Maximum = 300
             Me.trackBarControl1.Properties.ShowLabels = True
             Me.trackBarControl1.Properties.SmallChange = 10
             Me.trackBarControl1.Properties.TickFrequency = 10
-            Me.trackBarControl1.Size = New System.Drawing.Size(440, 72)
+            Me.trackBarControl1.Size = New System.Drawing.Size(463, 72)
             Me.trackBarControl1.StyleController = Me.LayoutControl1
             Me.trackBarControl1.TabIndex = 2
             Me.trackBarControl1.Value = 100
             '
             'btnCheckLayout
             '
-            Me.btnCheckLayout.Location = New System.Drawing.Point(24, 598)
+            Me.btnCheckLayout.Location = New System.Drawing.Point(24, 597)
             Me.btnCheckLayout.Name = "btnCheckLayout"
             Me.btnCheckLayout.Size = New System.Drawing.Size(146, 22)
             Me.btnCheckLayout.StyleController = Me.LayoutControl1
@@ -276,7 +276,7 @@
             '
             'btnPageCountSelectedRange
             '
-            Me.btnPageCountSelectedRange.Location = New System.Drawing.Point(24, 572)
+            Me.btnPageCountSelectedRange.Location = New System.Drawing.Point(24, 571)
             Me.btnPageCountSelectedRange.Name = "btnPageCountSelectedRange"
             Me.btnPageCountSelectedRange.Size = New System.Drawing.Size(146, 22)
             Me.btnPageCountSelectedRange.StyleController = Me.LayoutControl1
@@ -285,7 +285,7 @@
             '
             'btnPositionInfo
             '
-            Me.btnPositionInfo.Location = New System.Drawing.Point(24, 520)
+            Me.btnPositionInfo.Location = New System.Drawing.Point(24, 519)
             Me.btnPositionInfo.Name = "btnPositionInfo"
             Me.btnPositionInfo.Size = New System.Drawing.Size(146, 22)
             Me.btnPositionInfo.StyleController = Me.LayoutControl1
@@ -294,7 +294,7 @@
             '
             'btnPageInfo
             '
-            Me.btnPageInfo.Location = New System.Drawing.Point(24, 546)
+            Me.btnPageInfo.Location = New System.Drawing.Point(24, 545)
             Me.btnPageInfo.Name = "btnPageInfo"
             Me.btnPageInfo.Size = New System.Drawing.Size(146, 22)
             Me.btnPageInfo.StyleController = Me.LayoutControl1
@@ -307,7 +307,7 @@
             Me.Root.GroupBordersVisible = False
             Me.Root.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1, Me.LayoutControlGroup1, Me.LayoutControlGroup2, Me.LayoutControlGroup3})
             Me.Root.Name = "Root"
-            Me.Root.Size = New System.Drawing.Size(876, 675)
+            Me.Root.Size = New System.Drawing.Size(899, 675)
             Me.Root.TextVisible = False
             '
             'LayoutControlItem1
@@ -315,16 +315,16 @@
             Me.LayoutControlItem1.Control = Me.richEditControl1
             Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 0)
             Me.LayoutControlItem1.Name = "LayoutControlItem1"
-            Me.LayoutControlItem1.Size = New System.Drawing.Size(856, 496)
+            Me.LayoutControlItem1.Size = New System.Drawing.Size(879, 495)
             Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem1.TextVisible = False
             '
             'LayoutControlGroup1
             '
             Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem5, Me.LayoutControlItem4, Me.LayoutControlItem3, Me.LayoutControlItem2})
-            Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 496)
+            Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 495)
             Me.LayoutControlGroup1.Name = "LayoutControlGroup1"
-            Me.LayoutControlGroup1.Size = New System.Drawing.Size(174, 159)
+            Me.LayoutControlGroup1.Size = New System.Drawing.Size(174, 160)
             Me.LayoutControlGroup1.TextVisible = False
             '
             'LayoutControlItem5
@@ -332,7 +332,7 @@
             Me.LayoutControlItem5.Control = Me.btnCheckLayout
             Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 78)
             Me.LayoutControlItem5.Name = "LayoutControlItem5"
-            Me.LayoutControlItem5.Size = New System.Drawing.Size(150, 57)
+            Me.LayoutControlItem5.Size = New System.Drawing.Size(150, 58)
             Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem5.TextVisible = False
             '
@@ -340,8 +340,11 @@
             '
             Me.LayoutControlItem4.Control = Me.btnPageCountSelectedRange
             Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 52)
+            Me.LayoutControlItem4.MaxSize = New System.Drawing.Size(150, 26)
+            Me.LayoutControlItem4.MinSize = New System.Drawing.Size(150, 26)
             Me.LayoutControlItem4.Name = "LayoutControlItem4"
             Me.LayoutControlItem4.Size = New System.Drawing.Size(150, 26)
+            Me.LayoutControlItem4.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem4.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem4.TextVisible = False
             '
@@ -349,8 +352,11 @@
             '
             Me.LayoutControlItem3.Control = Me.btnPageInfo
             Me.LayoutControlItem3.Location = New System.Drawing.Point(0, 26)
+            Me.LayoutControlItem3.MaxSize = New System.Drawing.Size(150, 26)
+            Me.LayoutControlItem3.MinSize = New System.Drawing.Size(150, 26)
             Me.LayoutControlItem3.Name = "LayoutControlItem3"
             Me.LayoutControlItem3.Size = New System.Drawing.Size(150, 26)
+            Me.LayoutControlItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem3.TextVisible = False
             '
@@ -358,8 +364,11 @@
             '
             Me.LayoutControlItem2.Control = Me.btnPositionInfo
             Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 0)
+            Me.LayoutControlItem2.MaxSize = New System.Drawing.Size(150, 26)
+            Me.LayoutControlItem2.MinSize = New System.Drawing.Size(150, 26)
             Me.LayoutControlItem2.Name = "LayoutControlItem2"
             Me.LayoutControlItem2.Size = New System.Drawing.Size(150, 26)
+            Me.LayoutControlItem2.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem2.TextVisible = False
             '
@@ -367,17 +376,20 @@
             '
             Me.LayoutControlGroup2.Enabled = False
             Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem13, Me.LayoutControlItem12, Me.LayoutControlItem11, Me.LayoutControlItem15, Me.LayoutControlItem10, Me.LayoutControlItem14, Me.LayoutControlItem9})
-            Me.LayoutControlGroup2.Location = New System.Drawing.Point(642, 496)
+            Me.LayoutControlGroup2.Location = New System.Drawing.Point(665, 495)
             Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-            Me.LayoutControlGroup2.Size = New System.Drawing.Size(214, 159)
+            Me.LayoutControlGroup2.Size = New System.Drawing.Size(214, 160)
             Me.LayoutControlGroup2.TextVisible = False
             '
             'LayoutControlItem13
             '
             Me.LayoutControlItem13.Control = Me.checkEdit2
             Me.LayoutControlItem13.Location = New System.Drawing.Point(0, 96)
+            Me.LayoutControlItem13.MaxSize = New System.Drawing.Size(101, 39)
+            Me.LayoutControlItem13.MinSize = New System.Drawing.Size(101, 39)
             Me.LayoutControlItem13.Name = "LayoutControlItem13"
-            Me.LayoutControlItem13.Size = New System.Drawing.Size(101, 39)
+            Me.LayoutControlItem13.Size = New System.Drawing.Size(101, 40)
+            Me.LayoutControlItem13.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem13.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem13.TextVisible = False
             '
@@ -385,8 +397,11 @@
             '
             Me.LayoutControlItem12.Control = Me.checkEdit7
             Me.LayoutControlItem12.Location = New System.Drawing.Point(0, 72)
+            Me.LayoutControlItem12.MaxSize = New System.Drawing.Size(101, 24)
+            Me.LayoutControlItem12.MinSize = New System.Drawing.Size(101, 24)
             Me.LayoutControlItem12.Name = "LayoutControlItem12"
             Me.LayoutControlItem12.Size = New System.Drawing.Size(101, 24)
+            Me.LayoutControlItem12.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem12.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem12.TextVisible = False
             '
@@ -394,8 +409,11 @@
             '
             Me.LayoutControlItem11.Control = Me.checkEdit5
             Me.LayoutControlItem11.Location = New System.Drawing.Point(0, 48)
+            Me.LayoutControlItem11.MaxSize = New System.Drawing.Size(101, 24)
+            Me.LayoutControlItem11.MinSize = New System.Drawing.Size(101, 24)
             Me.LayoutControlItem11.Name = "LayoutControlItem11"
             Me.LayoutControlItem11.Size = New System.Drawing.Size(101, 24)
+            Me.LayoutControlItem11.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem11.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem11.TextVisible = False
             '
@@ -403,8 +421,11 @@
             '
             Me.LayoutControlItem15.Control = Me.checkEdit9
             Me.LayoutControlItem15.Location = New System.Drawing.Point(101, 24)
+            Me.LayoutControlItem15.MaxSize = New System.Drawing.Size(89, 111)
+            Me.LayoutControlItem15.MinSize = New System.Drawing.Size(89, 111)
             Me.LayoutControlItem15.Name = "LayoutControlItem15"
-            Me.LayoutControlItem15.Size = New System.Drawing.Size(89, 111)
+            Me.LayoutControlItem15.Size = New System.Drawing.Size(89, 112)
+            Me.LayoutControlItem15.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem15.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem15.TextVisible = False
             '
@@ -412,8 +433,11 @@
             '
             Me.LayoutControlItem10.Control = Me.checkEdit3
             Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 24)
+            Me.LayoutControlItem10.MaxSize = New System.Drawing.Size(101, 24)
+            Me.LayoutControlItem10.MinSize = New System.Drawing.Size(101, 24)
             Me.LayoutControlItem10.Name = "LayoutControlItem10"
             Me.LayoutControlItem10.Size = New System.Drawing.Size(101, 24)
+            Me.LayoutControlItem10.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem10.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem10.TextVisible = False
             '
@@ -421,8 +445,11 @@
             '
             Me.LayoutControlItem14.Control = Me.checkEdit4
             Me.LayoutControlItem14.Location = New System.Drawing.Point(101, 0)
+            Me.LayoutControlItem14.MaxSize = New System.Drawing.Size(89, 24)
+            Me.LayoutControlItem14.MinSize = New System.Drawing.Size(89, 24)
             Me.LayoutControlItem14.Name = "LayoutControlItem14"
             Me.LayoutControlItem14.Size = New System.Drawing.Size(89, 24)
+            Me.LayoutControlItem14.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem14.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem14.TextVisible = False
             '
@@ -430,23 +457,26 @@
             '
             Me.LayoutControlItem9.Control = Me.checkEdit1
             Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 0)
+            Me.LayoutControlItem9.MaxSize = New System.Drawing.Size(101, 24)
+            Me.LayoutControlItem9.MinSize = New System.Drawing.Size(101, 24)
             Me.LayoutControlItem9.Name = "LayoutControlItem9"
             Me.LayoutControlItem9.Size = New System.Drawing.Size(101, 24)
+            Me.LayoutControlItem9.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem9.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem9.TextVisible = False
             '
             'LayoutControlGroup3
             '
             Me.LayoutControlGroup3.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem7, Me.LayoutControlItem6, Me.LayoutControlItem8, Me.lblPageInfo, Me.EmptySpaceItem1})
-            Me.LayoutControlGroup3.Location = New System.Drawing.Point(174, 496)
+            Me.LayoutControlGroup3.Location = New System.Drawing.Point(174, 495)
             Me.LayoutControlGroup3.Name = "LayoutControlGroup3"
-            Me.LayoutControlGroup3.Size = New System.Drawing.Size(468, 159)
+            Me.LayoutControlGroup3.Size = New System.Drawing.Size(491, 160)
             Me.LayoutControlGroup3.TextVisible = False
             '
             'LayoutControlItem7
             '
             Me.LayoutControlItem7.Control = Me.checkbtnCustomDraw
-            Me.LayoutControlItem7.Location = New System.Drawing.Point(331, 10)
+            Me.LayoutControlItem7.Location = New System.Drawing.Point(354, 10)
             Me.LayoutControlItem7.MaxSize = New System.Drawing.Size(113, 24)
             Me.LayoutControlItem7.MinSize = New System.Drawing.Size(113, 24)
             Me.LayoutControlItem7.Name = "LayoutControlItem7"
@@ -459,11 +489,10 @@
             '
             Me.LayoutControlItem6.Control = Me.trackBarControl1
             Me.LayoutControlItem6.Location = New System.Drawing.Point(0, 60)
-            Me.LayoutControlItem6.MaxSize = New System.Drawing.Size(444, 75)
-            Me.LayoutControlItem6.MinSize = New System.Drawing.Size(444, 75)
+            Me.LayoutControlItem6.MinSize = New System.Drawing.Size(76, 76)
             Me.LayoutControlItem6.Name = "LayoutControlItem6"
             Me.LayoutControlItem6.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 15, 2)
-            Me.LayoutControlItem6.Size = New System.Drawing.Size(444, 75)
+            Me.LayoutControlItem6.Size = New System.Drawing.Size(467, 76)
             Me.LayoutControlItem6.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.LayoutControlItem6.TextSize = New System.Drawing.Size(0, 0)
             Me.LayoutControlItem6.TextVisible = False
@@ -471,7 +500,7 @@
             'LayoutControlItem8
             '
             Me.LayoutControlItem8.Control = Me.simpleButton2
-            Me.LayoutControlItem8.Location = New System.Drawing.Point(331, 34)
+            Me.LayoutControlItem8.Location = New System.Drawing.Point(354, 34)
             Me.LayoutControlItem8.MaxSize = New System.Drawing.Size(113, 26)
             Me.LayoutControlItem8.MinSize = New System.Drawing.Size(113, 26)
             Me.LayoutControlItem8.Name = "LayoutControlItem8"
@@ -484,15 +513,17 @@
             '
             Me.lblPageInfo.AllowHotTrack = False
             Me.lblPageInfo.Location = New System.Drawing.Point(0, 0)
+            Me.lblPageInfo.MinSize = New System.Drawing.Size(57, 17)
             Me.lblPageInfo.Name = "lblPageInfo"
-            Me.lblPageInfo.Size = New System.Drawing.Size(331, 60)
+            Me.lblPageInfo.Size = New System.Drawing.Size(354, 60)
+            Me.lblPageInfo.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
             Me.lblPageInfo.Text = "Empty Info"
             Me.lblPageInfo.TextSize = New System.Drawing.Size(53, 13)
             '
             'EmptySpaceItem1
             '
             Me.EmptySpaceItem1.AllowHotTrack = False
-            Me.EmptySpaceItem1.Location = New System.Drawing.Point(331, 0)
+            Me.EmptySpaceItem1.Location = New System.Drawing.Point(354, 0)
             Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
             Me.EmptySpaceItem1.Size = New System.Drawing.Size(113, 10)
             Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
@@ -509,7 +540,7 @@
             '
             Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-            Me.ClientSize = New System.Drawing.Size(876, 675)
+            Me.ClientSize = New System.Drawing.Size(899, 675)
             Me.Controls.Add(Me.LayoutControl1)
             Me.Name = "Form1"
             Me.Text = "Form1"
