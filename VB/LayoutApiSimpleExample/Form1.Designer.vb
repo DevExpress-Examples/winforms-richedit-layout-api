@@ -1,5 +1,7 @@
-﻿Namespace LayoutApiSimpleExample
-    Partial Public Class Form1
+Namespace LayoutApiSimpleExample
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,32 +12,32 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+'#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
             Me.components = New System.ComponentModel.Container()
-            Dim trackBarLabel1 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim trackBarLabel2 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim trackBarLabel3 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim trackBarLabel4 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim trackBarLabel5 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim trackBarLabel6 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim trackBarLabel7 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim trackBarLabel8 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim trackBarLabel9 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim trackBarLabel10 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim trackBarLabel11 As New DevExpress.XtraEditors.Repository.TrackBarLabel()
-            Dim resources As New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+            Dim trackBarLabel1 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim trackBarLabel2 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim trackBarLabel3 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim trackBarLabel4 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim trackBarLabel5 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim trackBarLabel6 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim trackBarLabel7 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim trackBarLabel8 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim trackBarLabel9 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim trackBarLabel10 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim trackBarLabel11 As DevExpress.XtraEditors.Repository.TrackBarLabel = New DevExpress.XtraEditors.Repository.TrackBarLabel()
+            Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LayoutApiSimpleExample.Form1))
             Me.richEditControl1 = New DevExpress.XtraRichEdit.RichEditControl()
             Me.panelControl1 = New DevExpress.XtraEditors.PanelControl()
             Me.simpleButton2 = New DevExpress.XtraEditors.SimpleButton()
@@ -55,20 +57,20 @@
             Me.btnPageInfo = New DevExpress.XtraEditors.SimpleButton()
             Me.lblPageInfo = New DevExpress.XtraEditors.LabelControl()
             Me.imageCollection1 = New DevExpress.Utils.ImageCollection(Me.components)
-            CType(Me.panelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.panelControl1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.panelControl1.SuspendLayout()
-            CType(Me.panelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.panelControl2), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.panelControl2.SuspendLayout()
-            CType(Me.checkEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.checkEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.checkEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.checkEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.checkEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.checkEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.checkEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.trackBarControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.trackBarControl1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.imageCollection1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.checkEdit9.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.checkEdit4.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.checkEdit1.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.checkEdit7.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.checkEdit2.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.checkEdit3.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.checkEdit5.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.trackBarControl1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.trackBarControl1.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.imageCollection1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' richEditControl1
@@ -106,6 +108,7 @@
             Me.simpleButton2.Size = New System.Drawing.Size(145, 27)
             Me.simpleButton2.TabIndex = 17
             Me.simpleButton2.Text = "Print Preview"
+            AddHandler Me.simpleButton2.Click, New System.EventHandler(AddressOf Me.simpleButton2_Click)
             ' 
             ' panelControl2
             ' 
@@ -129,6 +132,7 @@
             Me.checkEdit9.Properties.Caption = "Page"
             Me.checkEdit9.Size = New System.Drawing.Size(77, 19)
             Me.checkEdit9.TabIndex = 15
+            AddHandler Me.checkEdit9.CheckedChanged, New System.EventHandler(AddressOf Me.checkEdit9_CheckedChanged)
             ' 
             ' checkEdit4
             ' 
@@ -137,6 +141,7 @@
             Me.checkEdit4.Properties.Caption = "Inline Picture"
             Me.checkEdit4.Size = New System.Drawing.Size(88, 19)
             Me.checkEdit4.TabIndex = 10
+            AddHandler Me.checkEdit4.CheckedChanged, New System.EventHandler(AddressOf Me.checkEdit4_CheckedChanged)
             ' 
             ' checkEdit1
             ' 
@@ -145,6 +150,7 @@
             Me.checkEdit1.Properties.Caption = "Text"
             Me.checkEdit1.Size = New System.Drawing.Size(77, 19)
             Me.checkEdit1.TabIndex = 7
+            AddHandler Me.checkEdit1.CheckedChanged, New System.EventHandler(AddressOf Me.checkEdit1_CheckedChanged)
             ' 
             ' checkEdit7
             ' 
@@ -153,6 +159,7 @@
             Me.checkEdit7.Properties.Caption = "Numbering List"
             Me.checkEdit7.Size = New System.Drawing.Size(96, 19)
             Me.checkEdit7.TabIndex = 13
+            AddHandler Me.checkEdit7.CheckedChanged, New System.EventHandler(AddressOf Me.checkEdit7_CheckedChanged)
             ' 
             ' checkEdit2
             ' 
@@ -161,6 +168,7 @@
             Me.checkEdit2.Properties.Caption = "Floating Picture"
             Me.checkEdit2.Size = New System.Drawing.Size(97, 19)
             Me.checkEdit2.TabIndex = 8
+            AddHandler Me.checkEdit2.CheckedChanged, New System.EventHandler(AddressOf Me.checkEdit2_CheckedChanged)
             ' 
             ' checkEdit3
             ' 
@@ -169,6 +177,7 @@
             Me.checkEdit3.Properties.Caption = "Table"
             Me.checkEdit3.Size = New System.Drawing.Size(77, 19)
             Me.checkEdit3.TabIndex = 9
+            AddHandler Me.checkEdit3.CheckedChanged, New System.EventHandler(AddressOf Me.checkEdit3_CheckedChanged)
             ' 
             ' checkEdit5
             ' 
@@ -177,6 +186,7 @@
             Me.checkEdit5.Properties.Caption = "Text Box"
             Me.checkEdit5.Size = New System.Drawing.Size(77, 19)
             Me.checkEdit5.TabIndex = 11
+            AddHandler Me.checkEdit5.CheckedChanged, New System.EventHandler(AddressOf Me.checkEdit5_CheckedChanged)
             ' 
             ' checkbtnCustomDraw
             ' 
@@ -186,6 +196,7 @@
             Me.checkbtnCustomDraw.Size = New System.Drawing.Size(145, 23)
             Me.checkbtnCustomDraw.TabIndex = 6
             Me.checkbtnCustomDraw.Text = "Custom Draw Layout"
+            AddHandler Me.checkbtnCustomDraw.CheckedChanged, New System.EventHandler(AddressOf Me.checkbtnCustomDraw_CheckedChanged)
             ' 
             ' btnPageCountSelectedRange
             ' 
@@ -194,6 +205,7 @@
             Me.btnPageCountSelectedRange.Size = New System.Drawing.Size(153, 23)
             Me.btnPageCountSelectedRange.TabIndex = 5
             Me.btnPageCountSelectedRange.Text = "Get Page Count for Selection"
+            AddHandler Me.btnPageCountSelectedRange.Click, New System.EventHandler(AddressOf Me.btnPageCountSelectedRange_Click)
             ' 
             ' btnPositionInfo
             ' 
@@ -202,6 +214,7 @@
             Me.btnPositionInfo.Size = New System.Drawing.Size(153, 23)
             Me.btnPositionInfo.TabIndex = 4
             Me.btnPositionInfo.Text = "Get Selected Position Info"
+            AddHandler Me.btnPositionInfo.Click, New System.EventHandler(AddressOf Me.btnPositionInfo_Click)
             ' 
             ' btnCheckLayout
             ' 
@@ -210,6 +223,7 @@
             Me.btnCheckLayout.Size = New System.Drawing.Size(153, 23)
             Me.btnCheckLayout.TabIndex = 3
             Me.btnCheckLayout.Text = "Check Layout"
+            AddHandler Me.btnCheckLayout.Click, New System.EventHandler(AddressOf Me.btnCheckLayout_Click)
             ' 
             ' trackBarControl1
             ' 
@@ -239,7 +253,7 @@
             trackBarLabel10.Value = 900
             trackBarLabel11.Label = "1000"
             trackBarLabel11.Value = 1000
-            Me.trackBarControl1.Properties.Labels.AddRange(New DevExpress.XtraEditors.Repository.TrackBarLabel() { trackBarLabel1, trackBarLabel2, trackBarLabel3, trackBarLabel4, trackBarLabel5, trackBarLabel6, trackBarLabel7, trackBarLabel8, trackBarLabel9, trackBarLabel10, trackBarLabel11})
+            Me.trackBarControl1.Properties.Labels.AddRange(New DevExpress.XtraEditors.Repository.TrackBarLabel() {trackBarLabel1, trackBarLabel2, trackBarLabel3, trackBarLabel4, trackBarLabel5, trackBarLabel6, trackBarLabel7, trackBarLabel8, trackBarLabel9, trackBarLabel10, trackBarLabel11})
             Me.trackBarControl1.Properties.Maximum = 300
             Me.trackBarControl1.Properties.ShowLabels = True
             Me.trackBarControl1.Properties.SmallChange = 10
@@ -247,6 +261,7 @@
             Me.trackBarControl1.Size = New System.Drawing.Size(239, 72)
             Me.trackBarControl1.TabIndex = 2
             Me.trackBarControl1.Value = 100
+            AddHandler Me.trackBarControl1.EditValueChanged, New System.EventHandler(AddressOf Me.trackBarControl1_EditValueChanged)
             ' 
             ' btnPageInfo
             ' 
@@ -255,6 +270,7 @@
             Me.btnPageInfo.Size = New System.Drawing.Size(153, 23)
             Me.btnPageInfo.TabIndex = 1
             Me.btnPageInfo.Text = "Get Page Information"
+            AddHandler Me.btnPageInfo.Click, New System.EventHandler(AddressOf Me.btnPageInfo_Click)
             ' 
             ' lblPageInfo
             ' 
@@ -266,10 +282,10 @@
             ' 
             ' imageCollection1
             ' 
-            Me.imageCollection1.ImageStream = (CType(resources.GetObject("imageCollection1.ImageStream"), DevExpress.Utils.ImageCollectionStreamer))
-            Me.imageCollection1.InsertGalleryImage("borole_16x16.png", "images/business%20objects/borole_16x16.png", DevExpress.Images.ImageResourceCache.Default.GetImage("images/business%20objects/borole_16x16.png"), 0)
+            Me.imageCollection1.ImageStream = CType((resources.GetObject("imageCollection1.ImageStream")), DevExpress.Utils.ImageCollectionStreamer)
+            Me.imageCollection1.InsertGalleryImage("borole_16x16.png", "images/business%20objects/borole_16x16.png", DevExpress.Images.ImageResourceCache.[Default].GetImage("images/business%20objects/borole_16x16.png"), 0)
             Me.imageCollection1.Images.SetKeyName(0, "borole_16x16.png")
-            Me.imageCollection1.InsertGalleryImage("employeeaward_16x16.png", "devav/people/employeeaward_16x16.png", DevExpress.Images.ImageResourceCache.Default.GetImage("devav/people/employeeaward_16x16.png"), 1)
+            Me.imageCollection1.InsertGalleryImage("employeeaward_16x16.png", "devav/people/employeeaward_16x16.png", DevExpress.Images.ImageResourceCache.[Default].GetImage("devav/people/employeeaward_16x16.png"), 1)
             Me.imageCollection1.Images.SetKeyName(1, "employeeaward_16x16.png")
             ' 
             ' Form1
@@ -281,46 +297,61 @@
             Me.Controls.Add(Me.panelControl1)
             Me.Name = "Form1"
             Me.Text = "Form1"
-            CType(Me.panelControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.panelControl1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.panelControl1.ResumeLayout(False)
             Me.panelControl1.PerformLayout()
-            CType(Me.panelControl2, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.panelControl2), System.ComponentModel.ISupportInitialize).EndInit()
             Me.panelControl2.ResumeLayout(False)
-            CType(Me.checkEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.checkEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.checkEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.checkEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.checkEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.checkEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.checkEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.trackBarControl1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.trackBarControl1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.imageCollection1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.checkEdit9.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.checkEdit4.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.checkEdit1.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.checkEdit7.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.checkEdit2.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.checkEdit3.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.checkEdit5.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.trackBarControl1.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.trackBarControl1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.imageCollection1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
-
+'#End Region
         Private richEditControl1 As DevExpress.XtraRichEdit.RichEditControl
+
         Private panelControl1 As DevExpress.XtraEditors.PanelControl
+
         Private lblPageInfo As DevExpress.XtraEditors.LabelControl
-        Private WithEvents btnPageInfo As DevExpress.XtraEditors.SimpleButton
-        Private WithEvents trackBarControl1 As DevExpress.XtraEditors.TrackBarControl
-        Private WithEvents btnCheckLayout As DevExpress.XtraEditors.SimpleButton
-        Private WithEvents btnPositionInfo As DevExpress.XtraEditors.SimpleButton
-        Private WithEvents btnPageCountSelectedRange As DevExpress.XtraEditors.SimpleButton
-        Private WithEvents checkbtnCustomDraw As DevExpress.XtraEditors.CheckButton
+
+        Private btnPageInfo As DevExpress.XtraEditors.SimpleButton
+
+        Private trackBarControl1 As DevExpress.XtraEditors.TrackBarControl
+
+        Private btnCheckLayout As DevExpress.XtraEditors.SimpleButton
+
+        Private btnPositionInfo As DevExpress.XtraEditors.SimpleButton
+
+        Private btnPageCountSelectedRange As DevExpress.XtraEditors.SimpleButton
+
+        Private checkbtnCustomDraw As DevExpress.XtraEditors.CheckButton
+
         Private imageCollection1 As DevExpress.Utils.ImageCollection
-        Private WithEvents checkEdit5 As DevExpress.XtraEditors.CheckEdit
-        Private WithEvents checkEdit4 As DevExpress.XtraEditors.CheckEdit
-        Private WithEvents checkEdit3 As DevExpress.XtraEditors.CheckEdit
-        Private WithEvents checkEdit2 As DevExpress.XtraEditors.CheckEdit
-        Private WithEvents checkEdit1 As DevExpress.XtraEditors.CheckEdit
-        Private WithEvents checkEdit7 As DevExpress.XtraEditors.CheckEdit
+
+        Private checkEdit5 As DevExpress.XtraEditors.CheckEdit
+
+        Private checkEdit4 As DevExpress.XtraEditors.CheckEdit
+
+        Private checkEdit3 As DevExpress.XtraEditors.CheckEdit
+
+        Private checkEdit2 As DevExpress.XtraEditors.CheckEdit
+
+        Private checkEdit1 As DevExpress.XtraEditors.CheckEdit
+
+        Private checkEdit7 As DevExpress.XtraEditors.CheckEdit
+
         Private panelControl2 As DevExpress.XtraEditors.PanelControl
-        Private WithEvents checkEdit9 As DevExpress.XtraEditors.CheckEdit
-        Private WithEvents simpleButton2 As DevExpress.XtraEditors.SimpleButton
+
+        Private checkEdit9 As DevExpress.XtraEditors.CheckEdit
+
+        Private simpleButton2 As DevExpress.XtraEditors.SimpleButton
     End Class
 End Namespace
-
