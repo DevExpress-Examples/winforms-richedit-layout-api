@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <OutputType>WinExe</OutputType>
+	    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+	    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+	    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+	    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System.Data.Linq" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="Grimm.docx">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+        <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+        <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+        <PackageReference Include="DevExpress.RichEdit.Export" Version="24.2.*" />
+        <PackageReference Include="DevExpress.Win.RichEdit" Version="24.2.*" />
+    </ItemGroup>
+</Project>

@@ -11,9 +11,9 @@ This example implements a simple Visitor to traverse the document layout tree. I
 
 ## Files to Review
 
-* [Form1.cs](./CS/LayoutApiSimpleExample/Form1.cs) (VB: [Form1.vb](./VB/LayoutApiSimpleExample/Form1.vb))
-* [MyDocumentLayoutVisitor.cs](./CS/LayoutApiSimpleExample/MyDocumentLayoutVisitor.cs) (VB:[MyDocumentLayoutVisitor.vb](./VB/LayoutApiSimpleExample/MyDocumentLayoutVisitor.vb))
-* [MyLayoutPainter.cs](./CS/LayoutApiSimpleExample/MyLayoutPainter.cs) (VB: [MyLayoutPainter.vb](./VB/LayoutApiSimpleExample/MyLayoutPainter.vb))
+* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
+* [MyDocumentLayoutVisitor.cs](./CS/MyDocumentLayoutVisitor.cs) (VB:[MyDocumentLayoutVisitor.vb](./VB/MyDocumentLayoutVisitor.vb))
+* [MyLayoutPainter.cs](./CS/MyLayoutPainter.cs) (VB: [MyLayoutPainter.vb](./VB/MyLayoutPainter.vb))
 
 ## Documentation
 
